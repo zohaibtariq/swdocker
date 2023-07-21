@@ -44,9 +44,7 @@ mysql.env
 
 ## NOTE
 
-<span style="color: red;">
 Remember your user must have appropriate permissions to make it work flawlessly.
-assuming docker desktop does not requires sudo
+assuming docker desktop did not require sudo
 while hosts do
 if it is not like that feel free to edit ./build.sh file first
-</span>
