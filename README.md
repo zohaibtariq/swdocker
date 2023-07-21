@@ -17,7 +17,7 @@ cd swdocker
 chmod u+x *.sh
 ```
 
-### To build docker
+### To build and up docker
 ```
 ./build.sh
 ```
