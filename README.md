@@ -50,7 +50,7 @@ while hosts do
 if it is not like that feel free to edit ./build.sh file first
 
 
-### NOW DOCKER IS UP WE NEED TO RUN MIGRATIONS NOW
+### DOCKER IS UP WE NEED TO RUN MIGRATIONS NOW
 
 make sure you are inside docker cloned repo, if you have fast hands please wait few seconds (to boot mysql completely) before executing migration command.
 
