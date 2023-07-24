@@ -93,3 +93,10 @@ OR
 ```
 docker exec -it php bash -c "cd api ; ./vendor/bin/phpunit --configuration phpunit.xml" 
 ```
+
+
+#### STEP 10 - generate docs
+
+```
+docker exec -it php bash -c "cd api ; php artisan l5-swagger:generate" 
+```
