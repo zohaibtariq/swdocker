@@ -81,7 +81,23 @@ docker exec -it php bash -c "cd api ; ./vendor/bin/phpunit --configuration phpun
 docker exec -it php bash -c "cd api ; php artisan l5-swagger:generate" 
 ```
 
-DOCKER SETUP IS COMPLETED.
+#### STEP 11 - go to local project (SW API) URL
+
+```
+http://sw.api.local/ 
+```
+
+#### STEP 12 - go to api docs
+
+```
+http://sw.api.local/api.docs
+```
+
+
+#### STEP 13 - setup postman by importing collection and environment file links are mentioned in another project repo
+
+
+### NOW DOCKER SETUP IS COMPLETED.
 
 ###
 ## Additional Helper Command (No Need To Execute Them)
