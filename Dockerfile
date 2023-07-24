@@ -17,7 +17,8 @@ RUN rm /etc/apt/preferences.d/no-debian-php && apt-get update && apt-get install
     php-soap \
     libfreetype6-dev \
     libjpeg62-turbo-dev \
-    unzip
+    unzip \
+    php-redis
 RUN curl -s https://deb.nodesource.com/setup_18.x | bash -
 RUN apt-get install -y nodejs
 RUN docker-php-ext-configure gd --with-freetype --with-jpeg
