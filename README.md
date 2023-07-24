@@ -1,27 +1,7 @@
 # DOCKER SW API
 
-### Docker down
-```
-./down.sh
-```
-
-### Docker up after docker down
-```
-./up.sh
-```
-
-### Remove docker completely
-```
-./remove.sh
-```
-
-### Mysql database details can be found at
-```
-mysql.env
-```
-
 ## NOTE
-
+###
 Remember your user must have appropriate permissions to make it work flawlessly.
 assuming docker desktop did not require sudo
 while hosts do
@@ -42,7 +22,7 @@ cd swdocker
 
 #### STEP 3 - give executables permission
 ```
-chmod u+x *.sh
+chmod u+x ./*.sh
 ```
 
 #### STEP 4 - build and up the docker
@@ -99,4 +79,30 @@ docker exec -it php bash -c "cd api ; ./vendor/bin/phpunit --configuration phpun
 
 ```
 docker exec -it php bash -c "cd api ; php artisan l5-swagger:generate" 
+```
+
+DOCKER SETUP IS COMPLETED.
+
+###
+## Additional Helper Command (No Need To Execute Them)
+###
+
+### Docker down
+```
+./down.sh
+```
+
+### Docker up after docker down
+```
+./up.sh
+```
+
+### Remove docker completely
+```
+./remove.sh
+```
+
+### Mysql database details can be found at
+```
+mysql.env
 ```
