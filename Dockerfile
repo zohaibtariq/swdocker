@@ -1,3 +1,4 @@
+#BONUS POINTS: Prepare a docker image with all dependencies to test your solution.
 FROM php:8.1-apache
 RUN rm /etc/apt/preferences.d/no-debian-php && apt-get update && apt-get install -y \
     apt-utils \
